@@ -1,0 +1,55 @@
+.loginContainer {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato";
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 7.5rem;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+.loginHeadingText {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2rem auto;
+}
+
+.loginInputField {
+  margin: 1rem auto;
+  height: 2rem;
+  min-width: 5rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  background: #efefef;
+}
+
+input[class="loginInputField"] {
+  min-width: 17rem;
+}
+
+input[class="loginInputField"]:focus {
+  outline: none;
+  background: #ddd;
+}
+
+button[class="loginInputField"] {
+  cursor: pointer;
+}
+
+button[class="loginInputField"]:hover {
+  background: #ddd;
+}
+
+.signUpText {
+  text-align: center;
+}

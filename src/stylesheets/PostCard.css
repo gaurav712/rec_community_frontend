@@ -1,0 +1,82 @@
+.forum {
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 0.5em;
+  width: 40rem;
+  /* min-height: 20rem; */
+  top: 20%;
+  font-family: "Lato";
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+.name {
+  font-size: 1rem;
+}
+.profile {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.authorName {
+  font-style: italic;
+}
+
+.grp {
+  display: flex;
+}
+
+.alias {
+  margin-left: 0.5rem;
+}
+.photo {
+  border-radius: 2rem;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.name {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.add {
+  margin-top: 0.2em;
+}
+.category {
+  margin-left: 27.5rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  background-color: aqua;
+  color: blue;
+  width: 5.5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postContent {
+  margin: 1rem auto;
+  max-height: 15rem;
+  text-align: justify;
+}
+
+.actionsContainer {
+  display: flex;
+}
+
+.favouriteToggle,
+.commentPost,
+.reportPost {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.favouriteToggle:hover,
+.reportPost:hover,
+.commentPost:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,33 @@
+.homeContainer {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.centralContainer {
+}
+
+.createPost {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  min-width: 25rem;
+  cursor: pointer;
+  font-family: "Lato";
+  align-items: center;
+  color: #000000aa;
+}
+
+.createPostIcon {
+  background: #5445cc;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.createPostIcon:hover {
+  background: #202020;
+}

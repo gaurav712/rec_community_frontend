@@ -1,0 +1,48 @@
+.People {
+  font-family: sans-serif;
+  /* text-align: center; */
+  width: 9em;
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  margin-top: 1em;
+  /* background: #ddd; */
+  /* border: 0.5px solid rgb(104, 144, 163); */
+}
+.members {
+  /* border: 1px solid rgb(104, 144, 163); */
+  padding: 3px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profilepic {
+  height: 50px;
+  width: 60px;
+  border-radius: 30%;
+  /* border: 0.5px solid rgb(104, 144, 163); */
+}
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+  /*border: 1px solid rgb(104, 144, 163);
+*/
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+}
+.list-item {
+  padding: 0;
+  display: flex;
+  /* border: 0.1px solid rgb(104, 144, 163); */
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+}
+.user-name {
+  font-size: 11px;
+  text-transform: capitalize;
+  /* font-style: italic; */
+  padding-left: 12px;
+  /* text-shadow: 0 1px 1px rgb(104, 144, 163); */
+}

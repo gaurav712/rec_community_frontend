@@ -1,0 +1,52 @@
+#addPostContainer {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  /* display: flex; */
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #20202090;
+  font-family: "Lato";
+}
+
+.addPostContent {
+  padding: 0.5rem 2rem;
+  max-width: 60%;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  height: fit-content;
+  border-radius: 1rem;
+  flex-direction: column;
+  background: #fff;
+}
+
+label[for="popupClose"] {
+  cursor: pointer;
+}
+
+.header {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.dataSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.textInput:focus,
+.file input:focus ~ .file-custom {
+  box-shadow: 0 0 0 1.5px teal;
+  outline: none;
+}
+
+.submitButton[type="submit"] {
+  margin-top: 2rem;
+}
+
+.submitButton {
+  margin: 0.5rem auto;
+}
